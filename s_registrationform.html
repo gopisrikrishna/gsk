@@ -1,0 +1,192 @@
+<!DoCTYPE html>
+	<html>
+		<head>
+			<title>Registration Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+	</head>
+		<body>
+		
+		<div class="bg">
+		
+		<header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="index.html" rel="tooltip"><b> HOME </b></a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="studentreg.html" style="color: red;">Student Registration</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="collegereg.html">College Registration</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="logincoll.html">Log In</a></li>
+               
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+<br><br>
+<div style="padding-top: 20px;">
+<center>
+<a href="" style="color: red;"> HIIIIIIIIIIIIIIIIIIIIIIIIII</a>
+<div style="top: 0%;"> 
+</div>
+			<h2><center><b><u class="dotted">Registration Form</u></b></center></h2>
+			<form action="sdatabase.php", method="post" name="thisform">
+					<div class="form-group">
+						<table>
+							<tr><td>
+						<label> Name </label>
+						<label> : </label></td>
+						<td><input type='text' name='sname'></td> </tr>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> Roll No </label>
+						<label> : </label></td>
+						<td><input type='text' name='rno'></td></tr>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> Branch </label>
+						<label>: </label></td>
+						<label><td>
+							<select name="branches">
+								<option value="select" >Select a branch</option>
+								<option value="ce">CE</option>
+								<option value="cse">CSE</option>
+								<option value="ece">ECE</option>
+								<option value="eee">EEE</option>
+								<option value="it">IT</option>
+								<option value="me">ME</option>
+							</select></td></tr>
+						</label>
+					</div>
+					<div class="form-group"><tr><td>
+						<label> Gender </label>
+						<label>  :</label></td>
+						<td>
+						<input type='radio' name='gen' value='male'>Male<input type='radio' name='gen' value='female'>female</td>
+					</tr>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> Phone Number  </label>
+						<label> : </label></td>
+						<td>
+						<input type='text' name='no'></td></tr>
+					</div>
+					<div class="form-group">
+					<tr><td>
+						<label> E-mail </label>
+						<label> : </label></td>
+						<td>
+						<input type='email' name='email'></td></tr>
+						<br>
+					</div>
+					<div class="form-group"><tr><td>
+						<label> State </label>
+						<label> : </label></td>
+						<label><td>
+							<select name="branches">
+								<option value="select" >Select a State</option>
+								<option value="it">Andhra Pradesh</option>
+								<option value="it">Arunachal Pradesh</option>
+								<option value="it">Assam</option>
+								<option value="it">Bihar</option>
+								<option value="it">Chhattisgarh</option>
+								<option value="it">Goa</option>
+								<option value="it">Gujarat</option>
+								<option value="it">Haryana</option>
+								<option value="it">Himachal Pradesh</option>
+								<option value="it">Jharkhand</option>
+								<option value="it">Karnataka</option>
+								<option value="it">Kerala</option>
+								<option value="it">Madhya Pradesh</option>
+								<option value="it">Maharashtra</option>
+								<option value="it">Manipur</option>
+								<option value="it">Meghalaya</option>
+								<option value="it">Mizoram</option>
+								<option value="it">Nagaland</option>
+								<option value="it">Odisha</option>
+								<option value="it">Punjab</option>
+								<option value="it">Rajasthan</option>
+								<option value="it">Sikkim</option>
+								<option value="it">Tamil Nadu</option>
+								<option value="it">Telangana</option>
+								<option value="it">Tripura</option>
+								<option value="it">Uttar Pradesh</option>
+								<option value="it">Uttarakhand</option>
+								<option value="it">West Bengal</option>
+							</select>
+						</label></td></tr>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> District </label>
+						<label> : </label></td>
+						<td>
+						<input type='district' name='district'></td></tr>
+						<br>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> : </label></td>
+						<td>
+						<label> Date of Birth </label>
+						<input type='Date' name='dob'></td></tr>
+						<br>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> Password </label>
+						<label> : </label></td>
+						<td>
+						<input type='password' name='password'></td></tr>
+						<br>
+					</div>
+					<div class="form-group">
+						<tr><td>
+						<label> Confirm Password </label>
+						<label> : </label></td>
+						<td>
+						<input type='Password' name='Cpassword'></td></tr></table>
+						<br>
+					</div>
+						 <button type="submit" class="btn btn-primary">Register</button>
+			</form>
+		</center>
+			</div></div>
+		</body>
+	
+	function validate_form(thisform)
+{
+with (thisform)
+  {
+      if (validate_required(name,"Name must be filled out!")==false)
+  {name.focus();return false;}
+  if (validate_required(country," Country must be filled out!")==false)
+  {country.focus();return false;}
+  if (validate_required(state,"State must be filled out!")==false)
+  {state.focus();return false;}
+  if (validate_required(city,"City must be filled out!")==false)
+  {city.focus();return false;}
+  if (validate_required(contact,"Contact must be filled out!")==false)
+  {contact.focus();return false;}
+  if (validate_required(emailid,"Email must be filled out!")==false)
+  {emailid.focus();return false;}
+  if (validate_email(userid,"Email is not valid")==false)
+  {userid.focus();return false;}
+  if (validate_required(password,"pasword must be filed out")==false)
+  {password.focus();return false;}
+}
+</html>
